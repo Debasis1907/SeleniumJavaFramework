@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 765.88 s <<< FAILURE! - in TestSuite
+verifyLoginUsingJsonData(com.store.TestCases.TC_verifySignUp_LoginTest)  Time elapsed: 0.525 s  <<< FAILURE!
+com.fasterxml.jackson.databind.exc.MismatchedInputException: 
+Cannot deserialize value of type `com.store.Pojo.LoginPojo` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (File); line: 1, column: 1]
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyLoginUsingJsonData(TC_verifySignUp_LoginTest.java:44)
+
+verifyLoginUsingTestNG(com.store.TestCases.TC_verifySignUp_LoginTest)  Time elapsed: 181.983 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da8b11ae29c7370ea79a8c9014c2f682, clickElement {id=E1373F4B5148522CE629205C9895FC8F_element_80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64070/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da8b11ae29c7370ea79a8c9014c2f682)] -> css selector: [data-qa='login-button']]
+Session ID: da8b11ae29c7370ea79a8c9014c2f682
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyLoginUsingTestNG(TC_verifySignUp_LoginTest.java:67)
+Caused by: java.util.concurrent.TimeoutException
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyLoginUsingTestNG(TC_verifySignUp_LoginTest.java:67)
+
+verifyLoginUsingTestNG(com.store.TestCases.TC_verifySignUp_LoginTest)  Time elapsed: 180.01 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da8b11ae29c7370ea79a8c9014c2f682, findElement {using=xpath, value=//a[normalize-space()='Signup / Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64070/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da8b11ae29c7370ea79a8c9014c2f682
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyLoginUsingTestNG(TC_verifySignUp_LoginTest.java:66)
+Caused by: java.util.concurrent.TimeoutException
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyLoginUsingTestNG(TC_verifySignUp_LoginTest.java:66)
+
+verifyRegistrationAndSignUp(com.store.TestCases.TC_verifySignUp_LoginTest)  Time elapsed: 180.012 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da8b11ae29c7370ea79a8c9014c2f682, findElement {using=xpath, value=//a[normalize-space()='Signup / Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64070/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da8b11ae29c7370ea79a8c9014c2f682
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyRegistrationAndSignUp(TC_verifySignUp_LoginTest.java:24)
+Caused by: java.util.concurrent.TimeoutException
+	at com.store.TestCases.TC_verifySignUp_LoginTest.verifyRegistrationAndSignUp(TC_verifySignUp_LoginTest.java:24)
+
+tearDown(com.store.TestCases.TC_verifySignUp_LoginTest)  Time elapsed: 360.036 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da8b11ae29c7370ea79a8c9014c2f682, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64070/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da8b11ae29c7370ea79a8c9014c2f682
+Caused by: java.util.concurrent.TimeoutException
+
+TC01_PlaceOrder_LoginBeforeCheckout(com.store.TestCases.TC_E2E_PlaceOrderTest)  Time elapsed: 16.242 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "Automation Exercise - All Products". Current title: "Automation Exercise" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64505/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d01ba1f531d7c311a609728beeae3ed5
+	at com.store.TestCases.TC_E2E_PlaceOrderTest.TC01_PlaceOrder_LoginBeforeCheckout(TC_E2E_PlaceOrderTest.java:50)
+

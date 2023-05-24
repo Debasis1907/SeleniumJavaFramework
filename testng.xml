@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.store.utilities.ExtentListenerClass"/>
+    </listeners>
+    <test verbose="2" thread-count="5" preserve-order="true" name="D:/Selenium/SeleniumFrameworkDevelopment/SeleniumFramework">
+        <classes>
+            <class name="com.store.TestCases.TC_verifySignUp_LoginTest"/>
+            <class name="com.store.TestCases.TC_E2E_PlaceOrderTest"/>
+        </classes>
+    </test>
+</suite>

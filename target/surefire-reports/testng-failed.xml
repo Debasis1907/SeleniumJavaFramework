@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.store.utilities.ExtentListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="D:/Selenium/SeleniumFrameworkDevelopment/SeleniumFramework(failed)" verbose="0">
+    <classes>
+      <class name="com.store.TestCases.TC_E2E_PlaceOrderTest">
+        <methods>
+          <include name="TC01_PlaceOrder_LoginBeforeCheckout"/>
+          <include name="initializeBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.store.TestCases.TC_E2E_PlaceOrderTest -->
+      <class name="com.store.TestCases.TC_verifySignUp_LoginTest">
+        <methods>
+          <include name="verifyLoginUsingJsonData"/>
+          <include name="initializeBrowser"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginUsingTestNG" invocation-numbers="0 1"/>
+          <include name="verifyRegistrationAndSignUp"/>
+        </methods>
+      </class> <!-- com.store.TestCases.TC_verifySignUp_LoginTest -->
+    </classes>
+  </test> <!-- D:/Selenium/SeleniumFrameworkDevelopment/SeleniumFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

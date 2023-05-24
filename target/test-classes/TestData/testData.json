@@ -1,0 +1,13 @@
+[
+  {
+    "Email" : "testautomation2@gmail.com",
+    "password" : "test@1234",
+    "productsTitle" : "Automation Exercise - All Products",
+    "product": "Blue Top",
+    "CardName": "Debasis",
+    "CardNumber": "4236-5230-1256-1001",
+    "CVC": "111",
+    "ExpiryMonth": "12",
+    "ExpiryYear": "2030"
+  }
+]
